@@ -1,64 +1,4 @@
-<<<<<<< HEAD
-.nav{
-  border:0px solid #ccc;
-  background-color: black;
-  list-style:none;
-  text-align:center;
-  color: aliceblue;
-  opacity: 0.8;
-}
-.nav li{
-  display:inline-block;
-  color: aliceblue;
-}
-.nav a{
-  padding:10px;
-  display:inline;
-  padding:10px;
-  font-size: 17px;
-  color: aliceblue;
-}
-.nav a:hover {
-  
-  background-color: #ddd;
-  color: black;
-}
-.nav a.active {
-  background-color: #4CAF50;
-  color: white;
-}
 
-body{
-  background: url(../img/bg.jpg) no-repeat center center fixed;
-  background-size: cover;
-  height: 100%;
-  
-}
-
-.box{
-  display: block;
-}
-
-input{
-  border: none;
-	position: relative;
-	display: block;
-	outline: none;
-	width: 400px;
-	height: 50px;
-	top: 220px;
-	margin: 0 auto;
-	padding: 10px;
-	color: #c0c0c0;
-  font-size: 20px;
-  border-radius: 25px;
-  text-align: center;
-}
-
-button{
-  position: relative;
-  top: 220px;
-=======
 /*
 Fade content bs-carousel with hero headers
 Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
@@ -162,7 +102,8 @@ Image credits: unsplash.com
 /********************************/
 
 .btn.btn-lg {
-    padding: 10px 40px;
+    padding: 10px 150px;
+    border-radius: 25px;
 }
 
 .btn.btn-hero, .btn.btn-hero:hover, .btn.btn-hero:focus {
@@ -274,5 +215,9 @@ ul.dropdown-menu {
 
 .navbar .navbar-collapse {
     text-align: center;
->>>>>>> master
+}
+
+.form-control{
+  padding: 10px 10px;
+    border-radius: 25px;
 }
