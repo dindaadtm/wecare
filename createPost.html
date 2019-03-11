@@ -2,27 +2,26 @@
 
 <head>
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <link rel="stylesheet" href="/wecare/css/style.css">
-    <link rel="stylesheet" href="/wecare/js/bootstrap.min.js">
-
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
-    
-    <title>wecare</title>
-    
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <!------ Include the above in your HEAD tag ---------->
+    <title></title>
 </head>
 
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
+<body background="img/bg.jpg" style="background: url(img/bg.jpg) no-repeat center center fixed;
+background-size: cover;
+height: 100%;">
+    <div class="navbar navbar-fixed-top">
         <div class="container">
 
             <div class="collapse navbar-collapse">
                 <ul class="nav navbar-nav navbar-left"></ul>
                 <ul class="nav navbar-nav">
-                    <li class="active"><a href="#">Home</a></li>
+                    <li class="active"><a href="index.html">Home</a></li>
                     <li><a href="#">About Us</a></li>
-                    <li><a href="#">Profile</a></li>
-                    <li><a href="#">Logout</a></li>
+                    <li><a href="login.html">Register</a></li>
                 </ul>
                 <ul class="nav navbar-nav navbar-right"></ul>
             </div>
@@ -30,23 +29,39 @@
     </div>
 
 
-    <div class="carousel fade-carousel slide" data-ride="carousel" data-interval="4000" id="bs-carousel">
-        <!-- Overlay -->
+    <div class="item slides active">
         <div class="overlay"></div>
+        <div class="slide-1"></div>
+        <div class="hero" style="margin-top: 2%;">
+            <hgroup>
+                <h1 style="font-size:40px">Write a post</h1>
+            </hgroup>
+            <div class="row" style="background-color:white ;  padding-top: 3%; ">
+                <div class="form-group col-md-12">
+                    <div class="form-group col-xs-6">
+                        <img src="img/post.jpg" width="80%">
 
-        <!-- Wrapper for slides -->
-        <div class="carousel-inner">
-            <div class="item slides active">
-                <div class="slide-1"></div>
-                <div class="hero">
-                    <hgroup>
-                        <h1>WE CARE</h1>
-                    </hgroup>
-                    <div class="form-group">
-                        <input type="text" class="form-control" id="search" placeholder="search...">
                     </div>
-                    <button class="btn btn-hero btn-lg" role="button">Write a post</button>
+                    <div class="form-group col-xs-6">
+
+                        <h2></h2>
+                        <input type="text" class="form-control " id="search" placeholder="title">
+                        <h2></h2>
+                        <textarea name="comment" class="form-control" form="usrform" rows="4" cols="50">Enter text here...</textarea>
+                        <br>
+                        <p style="color:black;">event <input type="checkbox"><br><input type="date" name="bday" max="1979-12-31"
+                                class="form-control">
+                        </p>
+                        <a href="index.html"><button class="btn btn-hero btn-lg " role="button">post</button></a>
+
+
+
+
+
+                    </div>
+
                 </div>
+
             </div>
         </div>
     </div>

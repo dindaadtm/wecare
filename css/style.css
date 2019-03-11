@@ -1,4 +1,3 @@
-
 /*
 Fade content bs-carousel with hero headers
 Code snippet by maridlcrmn (Follow me on Twitter @maridlcrmn) for Bootsnipp.com
@@ -40,7 +39,6 @@ Image credits: unsplash.com
 /********************************/
 
 .hero {
-  display: block;
     position: absolute;
     top: 50%;
     left: 50%;
@@ -103,16 +101,18 @@ Image credits: unsplash.com
 /********************************/
 
 .btn.btn-lg {
-    padding: 10px 150px;
-    border-radius: 25px;
+    padding: 10px 40px;
 }
 
-.btn.btn-hero, .btn.btn-hero:hover, .btn.btn-hero:focus {
+.btn.btn-hero,
+.btn.btn-hero:hover,
+.btn.btn-hero:focus {
     color: #f5f5f5;
     background-color: #1abc9c;
     border-color: #1abc9c;
     outline: none;
     margin: 20px auto;
+    border-radius: 25px;
 }
 
 /********************************/
@@ -121,7 +121,9 @@ Image credits: unsplash.com
 
 /********************************/
 
-.fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3 {
+.fade-carousel .slides .slide-1,
+.fade-carousel .slides .slide-2,
+.fade-carousel .slides .slide-3 {
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -129,15 +131,15 @@ Image credits: unsplash.com
 }
 
 .fade-carousel .slides .slide-1 {
-    background-image: url(https://ununsplash.imgix.net/photo-1416339134316-0e91dc9ded92?q=75&fm=jpg&s=883a422e10fc4149893984019f63c818);
+    background-image: url(https://images.unsplash.com/photo-1461532257246-777de18cd58b?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1510&q=80);
 }
 
 .fade-carousel .slides .slide-2 {
-    background-image: url(https://ununsplash.imgix.net/photo-1416339684178-3a239570f315?q=75&fm=jpg&s=c39d9a3bf66d6566b9608a9f1f3765af);
+    background-image: url(https://images.unsplash.com/photo-1463974554539-5a24359b7e47?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=1506&q=80);
 }
 
 .fade-carousel .slides .slide-3 {
-    background-image: url(https://ununsplash.imgix.net/photo-1416339276121-ba1dfa199912?q=75&fm=jpg&s=9bf9f2ef5be5cb5eee5255e7765cb327);
+    background-image: url(https://images.unsplash.com/photo-1437912958086-300d70657a11?ixlib=rb-1.2.1&ixid=eyJhcHBfaWQiOjEyMDd9&auto=format&fit=crop&w=750&q=80);
 }
 
 /********************************/
@@ -163,7 +165,7 @@ section {
 }
 
 .banner {
-    background: red;
+    background: white;
     min-height: 200px;
 }
 
@@ -181,7 +183,6 @@ section {
 ***********************************************************************/
 
 .opaque-navbar {
-    background-color: rgba(0, 0, 0, 0.5);
     /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
     height: 60px;
     border-bottom: 0px;
@@ -189,7 +190,6 @@ section {
 }
 
 .opaque-navbar.opaque {
-    background-color: black;
     height: 60px;
     transition: background-color .5s ease 0s;
 }
@@ -200,10 +200,10 @@ ul.dropdown-menu {
 
 @media (max-width: 992px) {
     body {
-        background: red;
+        background: white;
     }
+
     .opaque-navbar {
-        background-color: black;
         height: 60px;
         transition: background-color .5s ease 0s;
     }
@@ -218,7 +218,58 @@ ul.dropdown-menu {
     text-align: center;
 }
 
-.form-control{
-  padding: 10px 10px;
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav>li>a:hover {
+    color: goldenrod;
+    background-color: black;
+}
+
+.nav>li>a:focus {
+    color: goldenrod;
+    background-color: black;
+}
+
+#search {
     border-radius: 25px;
+}
+
+.body {
+    padding: 10px;
+    margin: 10px;
+}
+
+.card-title {
+    font-size: 30px;
+}
+
+.row {
+    margin: 2%;
+    -webkit-box-shadow: 1px 2px 18px -4px rgba(255, 255, 255, 0.75);
+    -moz-box-shadow: 1px 2px 18px -4px rgba(158, 156, 156, 0.75) 0.75);
+    box-shadow: 1px 2px 18px -4px rgba(0, 0, 0, 0.75);
+    height: 400px;
+    background-color: #ffffff;
+}
+
+.card-block {
+    margin: 3%;
+    padding: 1%;
+    background-color: rgb(238, 238, 238);
+    border-radius: 2%;
+    height: auto;
+}
+
+
+.keterangan {
+    height: 400px;
+    padding: 1%;
+    background-color: white;
+}
+
+.foto img {
+    height: 400px;
 }
