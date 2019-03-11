@@ -5,8 +5,11 @@ Image credits: unsplash.com
 */
 
 /********************************/
+
 /*       Fade Bs-carousel       */
+
 /********************************/
+
 .fade-carousel {
     position: relative;
     height: 100vh;
@@ -30,8 +33,11 @@ Image credits: unsplash.com
 }
 
 /********************************/
+
 /*          Hero Headers        */
+
 /********************************/
+
 .hero {
     position: absolute;
     top: 50%;
@@ -74,8 +80,11 @@ Image credits: unsplash.com
 }
 
 /********************************/
+
 /*            Overlay           */
+
 /********************************/
+
 .overlay {
     position: absolute;
     width: 100%;
@@ -86,15 +95,16 @@ Image credits: unsplash.com
 }
 
 /********************************/
+
 /*          Custom Buttons      */
+
 /********************************/
+
 .btn.btn-lg {
     padding: 10px 40px;
 }
 
-.btn.btn-hero,
-.btn.btn-hero:hover,
-.btn.btn-hero:focus {
+.btn.btn-hero, .btn.btn-hero:hover, .btn.btn-hero:focus {
     color: #f5f5f5;
     background-color: #1abc9c;
     border-color: #1abc9c;
@@ -103,11 +113,12 @@ Image credits: unsplash.com
 }
 
 /********************************/
+
 /*       Slides backgrounds     */
+
 /********************************/
-.fade-carousel .slides .slide-1,
-.fade-carousel .slides .slide-2,
-.fade-carousel .slides .slide-3 {
+
+.fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3 {
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -127,8 +138,11 @@ Image credits: unsplash.com
 }
 
 /********************************/
+
 /*          Media Queries       */
+
 /********************************/
+
 @media screen and (min-width: 980px) {
     .hero {
         width: 980px;
@@ -159,11 +173,10 @@ section {
     color: white;
 }
 
-
-
 /***********************************************************************
 *  OPAQUE NAVBAR SECTION
 ***********************************************************************/
+
 .opaque-navbar {
     background-color: rgba(0, 0, 0, 0.5);
     /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
@@ -182,16 +195,22 @@ ul.dropdown-menu {
     background-color: black;
 }
 
-
 @media (max-width: 992px) {
     body {
         background: red;
     }
-
     .opaque-navbar {
         background-color: black;
         height: 60px;
         transition: background-color .5s ease 0s;
     }
+}
 
+.navbar .navbar-nav {
+    display: inline-block;
+    float: none;
+}
+
+.navbar .navbar-collapse {
+    text-align: center;
 }
