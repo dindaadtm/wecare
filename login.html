@@ -1,27 +1,51 @@
 <!DOCTYPE html>
 <html>
+
 <head>
     <link href="//netdna.bootstrapcdn.com/bootstrap/3.2.0/css/bootstrap.min.css" rel="stylesheet" id="bootstrap-css">
-    <link rel="stylesheet" href="../wecare/css/stylelogin.css">
-    <link rel="stylesheet" href="../wecare/js/bootstrap.min.js">
-
-    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
+    <link rel="stylesheet" href="css/style.css">
+    <link rel="stylesheet" href="js/bootstrap.min.js">
     <script src="//code.jquery.com/jquery-1.11.1.min.js"></script>
+    <script src="//netdna.bootstrapcdn.com/bootstrap/3.2.0/js/bootstrap.min.js"></script>
     <!------ Include the above in your HEAD tag ---------->
-    <title>Login</title>
+    <title></title>
 </head>
-<body>
-    <div class="navbar navbar-inverse navbar-fixed-top opaque-navbar">
-        <div class="container" >
-            <div class="collapse navbar-collapse" id="navMain">
-                <ul class="nav navbar-nav pull-right">
-                    <li class="active"><a href="#">Home</a></li>
-                    <li><a href="#">About Us</a></li>
-                    <li><a href="#">Services and Pricing</a></li>
-                    <li><a href="#">Contact Us</a></li>
+
+<body background="img/bg.jpg" style="background: url(img/bg.jpg) no-repeat center center fixed;
+background-size: cover;
+height: 100%;">
+    <div class="navbar navbar-fixed-top ">
+        <div class="container">
+
+            <div class="collapse navbar-collapse">
+                <ul class="nav navbar-nav navbar-left"></ul>
+                <ul class="nav navbar-nav">
+                    <li class="active"><a href="#" style="color:white;">Home</a></li>
+                    <li><a href="#" style="color:white;">About Us</a></li>
+                    <li><a href="#" style="color:white;">Profile</a></li>
+                    <li><a href="#" style="color:white;">Logout</a></li>
                 </ul>
+                <ul class="nav navbar-nav navbar-right"></ul>
             </div>
         </div>
     </div>
+    <div class="item slides active">
+        <div class="overlay"></div>
+        <div class="slide-1"></div>
+        <div class="hero">
+            <hgroup>
+                <h1>Login</h1>
+            </hgroup>
+            <div class="form-group col-xs-4">
+            </div>
+            <div class="form-group col-xs-4">
+                
+                    <h2></h2>
+                <input type="text" class="form-control " id="search" placeholder="email">
+                <h2></h2>
+                <input type="password" class="form-control" id="search" placeholder="password">
+            </div>
+            <button class="btn btn-hero btn-lg " role="button">Write a post</button>
+        </div>
+    </div>
 </body>
-</html>
