@@ -5,16 +5,11 @@ Image credits: unsplash.com
 */
 
 /********************************/
-<<<<<<< HEAD
 
 /*       Fade Bs-carousel       */
 
 /********************************/
 
-=======
-/*       Fade Bs-carousel       */
-/********************************/
->>>>>>> e5e06d08ab50780501270ed17ecbabbaac37d0b0
 .fade-carousel {
     position: relative;
     height: 100vh;
@@ -38,16 +33,11 @@ Image credits: unsplash.com
 }
 
 /********************************/
-<<<<<<< HEAD
 
 /*          Hero Headers        */
 
 /********************************/
 
-=======
-/*          Hero Headers        */
-/********************************/
->>>>>>> e5e06d08ab50780501270ed17ecbabbaac37d0b0
 .hero {
     position: absolute;
     top: 50%;
@@ -90,16 +80,11 @@ Image credits: unsplash.com
 }
 
 /********************************/
-<<<<<<< HEAD
 
 /*            Overlay           */
 
 /********************************/
 
-=======
-/*            Overlay           */
-/********************************/
->>>>>>> e5e06d08ab50780501270ed17ecbabbaac37d0b0
 .overlay {
     position: absolute;
     width: 100%;
@@ -110,27 +95,16 @@ Image credits: unsplash.com
 }
 
 /********************************/
-<<<<<<< HEAD
 
 /*          Custom Buttons      */
 
 /********************************/
 
-=======
-/*          Custom Buttons      */
-/********************************/
->>>>>>> e5e06d08ab50780501270ed17ecbabbaac37d0b0
 .btn.btn-lg {
     padding: 10px 40px;
 }
 
-<<<<<<< HEAD
 .btn.btn-hero, .btn.btn-hero:hover, .btn.btn-hero:focus {
-=======
-.btn.btn-hero,
-.btn.btn-hero:hover,
-.btn.btn-hero:focus {
->>>>>>> e5e06d08ab50780501270ed17ecbabbaac37d0b0
     color: #f5f5f5;
     background-color: #1abc9c;
     border-color: #1abc9c;
@@ -139,20 +113,12 @@ Image credits: unsplash.com
 }
 
 /********************************/
-<<<<<<< HEAD
 
 /*       Slides backgrounds     */
 
 /********************************/
 
 .fade-carousel .slides .slide-1, .fade-carousel .slides .slide-2, .fade-carousel .slides .slide-3 {
-=======
-/*       Slides backgrounds     */
-/********************************/
-.fade-carousel .slides .slide-1,
-.fade-carousel .slides .slide-2,
-.fade-carousel .slides .slide-3 {
->>>>>>> e5e06d08ab50780501270ed17ecbabbaac37d0b0
     height: 100vh;
     background-size: cover;
     background-position: center center;
@@ -172,16 +138,11 @@ Image credits: unsplash.com
 }
 
 /********************************/
-<<<<<<< HEAD
 
 /*          Media Queries       */
 
 /********************************/
 
-=======
-/*          Media Queries       */
-/********************************/
->>>>>>> e5e06d08ab50780501270ed17ecbabbaac37d0b0
 @media screen and (min-width: 980px) {
     .hero {
         width: 980px;
@@ -212,18 +173,10 @@ section {
     color: white;
 }
 
-<<<<<<< HEAD
 /***********************************************************************
 *  OPAQUE NAVBAR SECTION
 ***********************************************************************/
 
-=======
-
-
-/***********************************************************************
-*  OPAQUE NAVBAR SECTION
-***********************************************************************/
->>>>>>> e5e06d08ab50780501270ed17ecbabbaac37d0b0
 .opaque-navbar {
     background-color: rgba(0, 0, 0, 0.5);
     /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
@@ -242,24 +195,15 @@ ul.dropdown-menu {
     background-color: black;
 }
 
-<<<<<<< HEAD
-=======
-
->>>>>>> e5e06d08ab50780501270ed17ecbabbaac37d0b0
 @media (max-width: 992px) {
     body {
         background: red;
     }
-<<<<<<< HEAD
-=======
-
->>>>>>> e5e06d08ab50780501270ed17ecbabbaac37d0b0
     .opaque-navbar {
         background-color: black;
         height: 60px;
         transition: background-color .5s ease 0s;
     }
-<<<<<<< HEAD
 }
 
 .navbar .navbar-nav {
@@ -269,7 +213,4 @@ ul.dropdown-menu {
 
 .navbar .navbar-collapse {
     text-align: center;
-=======
-
->>>>>>> e5e06d08ab50780501270ed17ecbabbaac37d0b0
 }
