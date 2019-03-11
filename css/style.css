@@ -178,7 +178,6 @@ section {
 ***********************************************************************/
 
 .opaque-navbar {
-    background-color: rgba(0, 0, 0, 0.5);
     /* Transparent = rgba(0,0,0,0) / Translucent = (0,0,0,0.5)  */
     height: 60px;
     border-bottom: 0px;
@@ -186,7 +185,6 @@ section {
 }
 
 .opaque-navbar.opaque {
-    background-color: black;
     height: 60px;
     transition: background-color .5s ease 0s;
 }
@@ -200,7 +198,6 @@ ul.dropdown-menu {
         background: red;
     }
     .opaque-navbar {
-        background-color: black;
         height: 60px;
         transition: background-color .5s ease 0s;
     }
@@ -213,4 +210,23 @@ ul.dropdown-menu {
 
 .navbar .navbar-collapse {
     text-align: center;
+}
+
+a {
+    color: whitesmoke;
+    text-decoration: none;
+}
+
+.nav>li>a:hover {
+    color: goldenrod;
+    background-color: black;
+}
+
+.nav>li>a:focus {
+    color: goldenrod;
+    background-color: black;
+}
+
+#search{
+    border-radius: 25px;
 }
