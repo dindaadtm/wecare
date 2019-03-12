@@ -223,6 +223,7 @@ a {
     text-decoration: none;
 }
 
+
 .nav>li>a:hover {
     color: goldenrod;
     background-color: black;
@@ -271,5 +272,6 @@ a {
 }
 
 .foto img {
+    margin: 0px;
     height: 400px;
 }
