@@ -1,0 +1,97 @@
+body, html{
+  height: 100%;
+}
+
+.container-fluid.main {
+    position: relative;
+    /* To make the navbar positions relative to this container */
+    padding: 0;
+}
+
+.form-rounded {
+    border-radius: 1rem;
+}
+
+.carousel .background {
+    background-position: center center;
+    background-size: 100%;
+    background-repeat: no-repeat;
+    height: 100vh;
+    width: 100vw;
+}
+
+
+@media (max-width:991px) {
+    .carousel .background {
+        background-size: cover;
+        /* To make the background image looks good */
+    }
+}
+
+.carousel .background.a {
+    background-image: url("../img/bg.jpg");
+}
+
+.carousel .background.b {
+    background-image: url("../img/6891.jpg");
+}
+
+.carousel .background.c {
+    background-image: url("../img/20502.jpg");
+}
+
+.covertext {
+    position: absolute;
+    /* To make the div to be place anywhere. It is out of the document flow */
+    top: 40vh;
+    /* The distance between the div with the top of document */
+    left: 0px;
+    /* Make the div full width */
+    right: 0px;
+    /* Make the div full width */
+}
+
+.covertextlogin {
+    position: absolute;
+    /* To make the div to be place anywhere. It is out of the document flow */
+    top: 20vh;
+    /* The distance between the div with the top of document */
+    left: 0px;
+    /* Make the div full width */
+    right: 0px;
+    /* Make the div full width */
+}
+
+.title {
+    font-family: Verdana;
+    font-weight: 600;
+    font-size: 60px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.subtitle {
+    font-family: Verdana;
+    font-size: 23px;
+    color: #ffffff;
+    text-align: center;
+}
+
+.explore {
+    text-align: center;
+    margin-top: 10px;
+}
+
+.overlay{
+    background-color: rgba(0, 0, 0, 0.5)
+}
+
+.btn:focus,
+.btn:active:focus,
+.btn.active:focus,
+.btn.focus,
+.btn:active.focus,
+.btn.active.focus {
+    color: #ffffff;
+    outline: none;
+}
